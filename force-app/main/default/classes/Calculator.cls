@@ -1,18 +1,9 @@
 public with sharing class Calculator {
+    //
     public Calculator() {
+    //this is constructor
+    }
+ 
 
-    }
-    public static integer add(Integer a, Integer b) {
-        return a + b;
-    }
-    public static integer subtract(Integer a, Integer b) {
-        return a - b;
-    }
-    Public static integer multiply(Integer a, Integer b) {
-        return a * b;
-    }
-    public static integer divide(Integer a, Integer b) {
-        if(b == 0) {
-            throw new ArithmeticException('Division by zero');
-        }
+   
 }
