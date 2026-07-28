@@ -5,7 +5,7 @@ public with sharing class Calculator {
     }
  
 public static integer add(Integer a, Integer b){
-    return a+b;
+    return a-b;
 }
    
 }
