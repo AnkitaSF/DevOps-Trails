@@ -8,4 +8,7 @@ public with sharing class Calculator {
     public static integer subtract(Integer a, Integer b) {
         return a - b;
     }
+    Public static integer multiply(Integer a, Integer b) {
+        return a * b;
+    }
 }
